@@ -14,7 +14,7 @@ result = {
 } 
  
 while director_counter < nds.length do 
- director_name = nds[director_counter][:name]
+ director_name = nds[director_counter][:name] 
  movie_counter = 0
  result[director_name] = 0 
 
